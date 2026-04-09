@@ -1,4 +1,5 @@
 # RCLootCouncil_StatPriority
+![RCLootCouncil Preview](https://media.forgecdn.net/attachments/1623/346/bildschirmfoto_20260409_175032-png.png)
 
 This is a standalone companion addon for `RCLootCouncil` that adds a new column in the voting frame to display stat priorities of each player.
 
