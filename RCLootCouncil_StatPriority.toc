@@ -1,0 +1,21 @@
+## Interface: 120001
+## Title: RCLootCouncil_StatPriority
+## Notes: Adds a Stat Priority column to the RCLootCouncil voting table.
+## Author: @project-author@
+## Version: @project-version@
+## RequiredDeps: RCLootCouncil
+## Dependencies: RCLootCouncil
+## IconTexture: Interface\Addons\RCLootCouncil_StatPriority\Media\icon
+## Category: Loot
+
+## X-Category: Chat & Communication, Bags & Inventory, Guild
+## X-Curse-Project-ID: 1508992
+## X-Wago-ID: v633y76b
+## X-License: GNU Lesser General Public License v3.0
+## X-Website: https://github.com/Mon3yb/RCLootCouncil_StatPriority
+
+core.lua
+Data\StatPriorities.lua
+Utils\Formatting.lua
+Utils\Anchors.lua
+Modules\Column.lua

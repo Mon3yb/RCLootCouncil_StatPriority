@@ -1,0 +1,18 @@
+package-as: RCLootCouncil_StatPriority
+
+required-dependencies:
+  - rclootcouncil
+
+tools-used:
+  - rclootcouncil
+
+manual-changelog: 
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - *.md
+  - *.sh
+  - *.png
+  - LICENSE
+  - _external
