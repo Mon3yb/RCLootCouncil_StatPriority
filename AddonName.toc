@@ -1,0 +1,14 @@
+## Interface: 120000
+
+## Title: <Addon-Name>
+## Notes: <Addon-Description>
+## Author: @project-author@
+## Version: @project-version@
+
+## X-Category: <Addon-Categories>
+## X-License: Unlicense: Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+## X-Website: <Github-or-Website-Url>
+## X-Curse-Project-ID: <Curse-Project-ID>
+## X-Wago-ID: <Wago-Project-ID>
+
+AddonFile.lua

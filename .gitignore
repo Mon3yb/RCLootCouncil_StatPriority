@@ -1,0 +1,9 @@
+.env
+.DS_Store
+.release
+.install
+.vscode
+.zip
+.tar.gz
+.bat
+.git
