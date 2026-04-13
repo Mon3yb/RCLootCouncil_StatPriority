@@ -16,19 +16,28 @@ This is a standalone companion addon for `RCLootCouncil` that adds a new column 
 - This addons was developed using OpenAI's Codex
 - I do check the source code and make manual changes but if you hate AI, you better skip this addon
 
-## Dependency
+## Dependencies
 
-`RCLootCouncil`
+This addon requires RCLootCouncil. It does nothing on its own.
 
 ## Where To Edit Stat Priorities
 Edit the hardcoded table in:
 
 - `Data/StatPriorities.lua`
 
-Each class entry contains:
-
-- `fallback_order`
-- `specs`
+The data structure for each class in StatPriorities.lua looks like this:
+```lua
+DEATHKNIGHT = {
+        fallback_order = {"Blood", "Frost", "Unholy"},
+        specs = {
+            Blood = "H >= C >= M = V",
+            Frost = "C >= M >> H > V",
+            Unholy = "M >= C >> H >> V",
+        },
+    },
+```
+- Each entry starts with the class name. Beast Mastery needs to be in the format `["Beast Mastery"]` for lua to detect it as a single entry. It will fail otherwise.
+- fallback_order is used in case that the addon cannot detect the current spec of a player. It is more or less the order of specs on wowhead
 
 ## Known Limitations
 
